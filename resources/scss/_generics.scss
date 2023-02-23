@@ -1,0 +1,57 @@
+// reset
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//generics
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// header
+header {
+    div {
+        width: 1200px;
+        margin: auto;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        height: 100px;
+
+        figure {
+            width: 20%;
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        ul {
+            display: flex;
+            margin-left: 500px;
+            list-style-type: none;
+
+            li {
+                margin-left: 10px;
+
+                a {
+                    color: $color-black;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $color-blue;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
