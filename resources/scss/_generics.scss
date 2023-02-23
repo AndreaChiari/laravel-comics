@@ -98,12 +98,17 @@ main {
 
     img {
         display: block;
+        padding: 10px;
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
 
     }
 
     h3 {
         color: white;
-        padding-right: 2px;
+        padding-right: 5px;
+        margin-left: 10px;
     }
 }
 

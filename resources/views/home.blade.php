@@ -9,7 +9,7 @@
         <section class="content">
           @foreach($comics as $comic)
             <div class="card">
-                <img :src="{{$comic['thumb']}}" alt="card.type">
+                <img src="{{$comic['thumb']}}" alt="card.type">
                 <h3>{{ $comic['title']}}</h3>
             </div>
           @endforeach
